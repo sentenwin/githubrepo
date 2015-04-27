@@ -1,0 +1,98 @@
+Go on AppEngine
+@Bangalore GDG
+7 Feb 2015
+
+Sathish VJ
+DataMi
+sathishvj@gmail.com
+http://sathishvj.com
+@sathishvj
+
+* About Me
+
+- Used to be an independent technology consultant (had consulted for Apigee also)
+- Got married.  So now had to get a job. :-)
+- Working for a startup now: DataMi
+.image images/DataMi-logo.png
+- In the engineering team
+
+* Why Go - some quick reasons
+
+- Super fast in compile and build
+- Modern language with easy concurrency concepts
+- Builds to a single executable, easy to deploy
+- Very small, orthogonal language set
+- Compiled, cross compilable language (OSX, Windows, Linux, Android, _iOS_, Plan9, etc.)
+- ... and lots more
+.image images/golang-gopher.jpeg
+
+* Some apps I've done on Google AppEngine and Go
+
+.link http://www.businblr.com/
+.link http://gcdc2013-glowso.appspot.com/#/home
+.link http://www.picketfencesindia.com/
+.link http://littlegourmetchef-web.appspot.com/
+- The latter two are static html file sites only.
+- And I'm not paying anything as of now for them.
+
+* Installing AppEngine Dev Env
+
+- Download zip file from http://downloads.google.com/appengine
+- Extract to a known folder (~/golang/go_appengine or c:\golang\go_appengine)
+- Add that folder to your PATH environment variable
+- Try `goapp version` to verify
+
+* Configuring the App in yaml
+
+- Name your application (this has to be unique on google servers)
+- Set your runtime as go and api_version as go1.  
+- Set handlers as you require to static files or the _go_app
+- Start a local test server with `goapp serve`
+.code app.yaml
+
+* A simple helloworld to start with
+- Demo and Hands On (if we can)
+- Copy hello.go.1 to hello.go if you want to try it out right away
+.code hello.go.1
+
+* Running Locally
+- Server `goapp serve` watches for file changes and automatically builds and loads
+- Goto localhost:8080 in browser for app
+- Goto localhost:8000 in browser for administrative tasks
+
+* Creating an App on Google Servers (Demo only)
+
+- Go to appengine.google.com
+- 'Create project'
+- Choose a unique name and create it
+
+* Deploying to Google Servers
+
+- `goapp deploy -oauth`
+- 
+- That's it.  Now your app is ...
+- ... available to anybody in the world
+- ... will take pretty much any load automatically
+- ... your provisioning, network config, databases, mail, redundancy, etc. are all done.
+- If you are providing the backend for the next WhatsApp or Facebook or Google Search, you're quite fine from a systems perspective.
+- And you didn't have to learn (or hire for) all the systems operations.  You just focused on your app idea and your business.
+
+* Using Services: Sending mail
+
+- Copy mail.go.2 to mail.go 
+- _(delete hello.go so that there is only one .go file with init())_
+- Sending a mail is as easy as importing 'appengine/mail' and using Send mthod
+.code mail.go.2 /show import/,/end show import/
+.code mail.go.2 /show imports/,/end show imports/
+.code mail.go.2 /show sendmail/,/end show sendmail/
+
+* Using Databases: Datastore
+
+- Copy db.go.3 to db.go
+- import appengine/datastore
+- Datastore is a replicated, high availability, nosql database
+- Use Put and Get to store and retrieve values
+.code db.go.3 /show import/,/end show import/
+.code db.go.3 /show type/,/end show type/
+.code db.go.3 /show put/,/end show put/
+

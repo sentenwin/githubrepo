@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<TextView 
+    android:id="@+id/text"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:text="100yrs"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:background="#6DACE1"
+    android:textStyle="bold|italic"
+    />
+<ImageView 
+    android:id="@+id/img100"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:src="@drawable/hundredyrs_icon"
+    android:contentDescription="For Display logo"
+    android:layout_below="@+id/text"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    />
+<TextView 
+    android:id="@+id/concept"
+    android:background="#B8C7D2"
+    android:text="@string/concept"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/img100"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="12sp"
+    />
+<EditText 
+    android:id="@+id/et_emailid"
+    android:layout_below="@+id/concept"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/rounded_edittext"
+    android:hint="Gmail ID Here"
+    android:ellipsize="start"
+    android:gravity="center"
+    android:inputType="textEmailAddress"
+    />
+<EditText 
+    android:id="@+id/et_password"
+    android:layout_below="@+id/et_emailid"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/rounded_edittext"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:ellipsize="start"
+    android:gravity="center"
+    
+    />
+<Button 
+    android:id="@+id/taphere"
+    android:text="Tap Here"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:background="#A3A3AB"
+    android:layout_below="@+id/et_password"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="90dp"
+    android:layout_marginRight="90dp"
+    android:textColor="#474749"
+    />
+</RelativeLayout>
+</ScrollView>

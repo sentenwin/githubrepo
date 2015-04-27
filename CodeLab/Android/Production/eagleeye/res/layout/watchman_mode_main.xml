@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+  <TextView
+    android:id="@+id/label"
+    android:layout_width="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:text="WatchMan Mode!!!"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/font_size"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout1"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="5dp" >
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="AlertMode PhoneNo" />
+	
+<EditText
+    android:id="@+id/phoneno"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="phone">
+
+    <requestFocus />
+</EditText>
+    
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout2"
+        android:layout_below="@+id/linearlayout1" 
+        android:layout_marginTop="5dp">
+	    
+        <CheckBox
+	        android:id="@+id/checkBox1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:checked="true"
+	        android:text="SMS Notification" />
+
+        <CheckBox
+	        android:id="@+id/checkBox2"
+	        android:layout_width="fill_parent"
+	        android:layout_below="@+id/checkBox1"
+	        android:layout_height="wrap_content"
+	        android:checked="false"
+	        android:text="Snap It" />
+        
+         <CheckBox
+	        android:id="@+id/checkBox3"
+	        android:layout_width="fill_parent"
+	        android:layout_below="@+id/checkBox2"
+	        android:layout_height="wrap_content"
+	        android:checked="false"
+	        android:text="Video Stream" />     
+    <Button
+        android:id="@+id/startwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Alert!!!" 
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+ 	        
+         
+    </LinearLayout>   
+
+</RelativeLayout>

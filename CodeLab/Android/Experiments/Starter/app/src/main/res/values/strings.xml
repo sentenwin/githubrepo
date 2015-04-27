@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BioMe</string>
+
+    <string name="title_section1">BioMe</string>
+    <string name="title_section2">AboutMe</string>
+    <string name="title_section3">TimeLine</string>
+    <string name="title_section4">Projects</string>
+    <string name="title_section5">Contacts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"></string>
+
+    <string name="action_settings">Settings</string>
+</resources>

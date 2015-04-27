@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<RelativeLayout 
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="#61A881">
+    <TextView 
+        android:id="@+id/tv_totaltab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Tab Today"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:id="@+id/tv_totaltabcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+          android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tv_totaltab"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>
+<RelativeLayout android:id="@+id/relative2" android:layout_width="130dp"
+    android:layout_height="100dp"  android:background="#45A3F5"    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_below="@+id/relative1">
+    
+    <TextView 
+        android:id="@+id/tvmosttab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most Tab"
+            android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        
+            android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:id="@+id/maxtabcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:layout_below="@+id/tvmosttab"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageView
+        android:id="@+id/img_maxphoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+       android:layout_toRightOf="@+id/maxtabcount"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="10dp"
+       android:layout_below="@+id/tvmosttab"
+        android:src="@drawable/circle_profile" />
+<TextView 
+    android:id="@+id/tvmname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_maxphoto"
+    android:layout_toRightOf="@+id/maxtabcount"
+    android:text="name"
+      android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+    
+    />
+</RelativeLayout>
+<RelativeLayout  android:layout_width="130dp" android:id="@+id/relative3"
+    android:layout_height="100dp"  android:background="#45A3F5"    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_toRightOf="@+id/relative2"
+    android:layout_below="@+id/relative1">
+    
+    <TextView 
+        android:id="@+id/tvweektab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week Tab"
+            android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        
+            android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:id="@+id/weektabcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:layout_below="@+id/tvweektab"
+             android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageView
+        android:id="@+id/img_weekphoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+       android:layout_toRightOf="@+id/weektabcount"
+       android:layout_marginLeft="10dp"
+       android:layout_below="@+id/tvweektab"
+        android:src="@drawable/circle_profile" />
+<TextView 
+    android:id="@+id/tvwname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_weekphoto"
+    android:layout_toRightOf="@+id/weektabcount"
+    android:text="name"
+      android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+      android:layout_marginLeft="10dp"
+    />
+
+</RelativeLayout>
+<Button 
+    android:id="@+id/btnMore"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="More Tab"
+    android:layout_below="@+id/relative3"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:background="#AF0000"
+    android:textColor="#FFFFFF"
+    />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<LinearLayout  android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout android:layout_height="match_parent" android:background="@color/blue_background" android:layout_weight="1" android:layout_width="fill_parent">
+   <WebView android:id="@+id/webView" android:layout_height="wrap_content" android:layout_width="fill_parent">
+  </WebView></LinearLayout>
+  <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal">
+  <Button android:text="Back"
+          android:id="@+id/btnback" 
+          android:layout_width="100dp" 
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          />
+
+    <Button  
+          android:id="@+id/btnrefresh" 
+          android:layout_width="36dp" 
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/ic_autorenew_white_36dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          />
+     <Button 
+          android:id="@+id/btnhome" 
+          android:layout_width="36dp" 
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/ic_account_balance_white_36dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          />
+
+     <Button
+         android:id="@+id/btnforward"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:text="Forward" />
+         
+  </LinearLayout>
+</LinearLayout>

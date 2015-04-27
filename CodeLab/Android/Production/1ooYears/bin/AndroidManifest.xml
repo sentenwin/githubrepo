@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:maxSdkVersion="19"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hundredyrs_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.app.TabBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ContactsChooser"></activity>
+       <!--  <activity android:name=".TabBar"></activity> -->
+        <activity android:name=".ContactsListActivity"></activity>
+         <activity android:name=".ContactSearchListActivity"></activity>
+         <activity android:name="DayTabActivity"></activity>
+         <activity android:name=".MoreTabActivity"></activity>
+         <receiver android:name=".SMSReceiver" android:enabled="true"
+            android:exported="true"> 
+        <intent-filter> 
+            <action android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+               <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter> 
+</receiver> 
+    </application>
+
+</manifest>
