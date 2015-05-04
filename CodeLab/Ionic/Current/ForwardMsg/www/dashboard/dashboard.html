@@ -1,0 +1,47 @@
+<ion-view title="ForwardMsg" hide-back-button="true">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header padding">
+           <div ng-controller="DashboardCtrl">
+<div class="list card" ng-repeat="msg in messages">
+
+
+
+  <div class="item item-body">
+    <p>
+ 		{{msg.body}}
+    </p>
+
+  </div>
+  <div class="item ">
+    <h2>{{msg.from}}</h2>
+    <p> {{msg.date}}
+      <a href="#" class="subdued">1 Like</a>
+    </p>
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      SeenBy
+    </a>
+  </div>
+
+</div>
+
+<div class="list">
+  <label class="item item-input">
+    <input type="text" ng-model="name" placeholder= {{name}}>
+  </label>
+  <label class="item item-input">
+    <textarea ng-model="msg" ng-keydown="addMessage($event)" placeholder="Message..."></textarea>
+  </label>
+      <button class="button button-full button-balanced" ng-click="sendMsg()">  Post Message   </button>
+</div>
+
+  </ion-content>
+</ion-view>

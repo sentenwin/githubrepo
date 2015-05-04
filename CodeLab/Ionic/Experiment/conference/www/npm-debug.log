@@ -1,0 +1,219 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\ProgramData\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'ionic' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.29
+4 verbose url raw ionic
+5 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+6 verbose url resolved https://registry.npmjs.org/ionic
+7 info trying registry request attempt 1 at 08:15:15
+8 verbose etag "CNILM4BLATKA2VIXD880Z2OJV"
+9 http GET https://registry.npmjs.org/ionic
+10 http 200 https://registry.npmjs.org/ionic
+11 silly registry.get cb [ 200,
+11 silly registry.get   { date: 'Sun, 18 Jan 2015 02:45:17 GMT',
+11 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+11 silly registry.get     etag: '"BNYZDGQ4RTEGQTIRFB0RW5DEY"',
+11 silly registry.get     'content-type': 'application/json',
+11 silly registry.get     'cache-control': 'max-age=60',
+11 silly registry.get     'content-length': '184472',
+11 silly registry.get     'accept-ranges': 'bytes',
+11 silly registry.get     via: '1.1 varnish',
+11 silly registry.get     age: '1',
+11 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+11 silly registry.get     'x-cache': 'MISS',
+11 silly registry.get     'x-cache-hits': '0',
+11 silly registry.get     'x-timer': 'S1421549115.765404,VS0,VE1607',
+11 silly registry.get     vary: 'Accept',
+11 silly registry.get     'keep-alive': 'timeout=10, max=50',
+11 silly registry.get     connection: 'Keep-Alive' } ]
+12 info outdated updating [ [ 'C:\\ProgramData\\nodejs',
+12 info outdated     'ionic',
+12 info outdated     '1.2.8',
+12 info outdated     '1.3.2',
+12 info outdated     '1.3.2',
+12 info outdated     '*' ] ]
+13 verbose install where,what [ 'C:\\ProgramData\\nodejs', [ 'ionic@1.3.2' ] ]
+14 verbose cache add [ 'ionic@1.3.2', null ]
+15 verbose cache add name=undefined spec="ionic@1.3.2" args=["ionic@1.3.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'ionic@1.3.2',
+16 verbose parsed url   path: 'ionic@1.3.2',
+16 verbose parsed url   href: 'ionic@1.3.2' }
+17 verbose cache add name="ionic" spec="1.3.2" args=["ionic","1.3.2"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '1.3.2',
+18 verbose parsed url   path: '1.3.2',
+18 verbose parsed url   href: '1.3.2' }
+19 verbose addNamed [ 'ionic', '1.3.2' ]
+20 verbose addNamed [ '1.3.2', '1.3.2' ]
+21 silly lockFile d7b8e48a-ionic-1-3-2 ionic@1.3.2
+22 verbose lock ionic@1.3.2 C:\Users\senthilm\AppData\Roaming\npm-cache\d7b8e48a-ionic-1-3-2.lock
+23 verbose registry.get ionic not expired, no request
+24 silly lockFile 32338a51--npmjs-org-ionic-ionic-1-3-2-tgz https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz
+25 verbose lock https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz C:\Users\senthilm\AppData\Roaming\npm-cache\32338a51--npmjs-org-ionic-ionic-1-3-2-tgz.lock
+26 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz',
+26 verbose addRemoteTarball   'c116923ed872ddfce12d8ceee5f0b57d31812514' ]
+27 info retry fetch attempt 1 at 08:15:18
+28 verbose fetch to= C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz
+29 http GET https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz
+30 http 200 https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz
+31 verbose tar unpack C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz
+32 silly lockFile a2011a51-ng-npm-cache-ionic-1-3-2-package tar://C:\Users\senthilm\AppData\Roaming\npm-cache\ionic\1.3.2\package
+33 verbose lock tar://C:\Users\senthilm\AppData\Roaming\npm-cache\ionic\1.3.2\package C:\Users\senthilm\AppData\Roaming\npm-cache\a2011a51-ng-npm-cache-ionic-1-3-2-package.lock
+34 silly lockFile 809d8a23-8811-0-05470604752190411-tmp-tgz tar://C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz
+35 verbose lock tar://C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz C:\Users\senthilm\AppData\Roaming\npm-cache\809d8a23-8811-0-05470604752190411-tmp-tgz.lock
+36 silly gunzTarPerm modes [ '755', '644' ]
+37 silly gunzTarPerm extractEntry package.json
+38 silly gunzTarPerm extractEntry .npmignore
+39 silly gunzTarPerm extractEntry README.md
+40 silly gunzTarPerm extractEntry LICENSE
+41 silly gunzTarPerm extractEntry .jscs.json
+42 silly gunzTarPerm extractEntry CHANGELOG.md
+43 silly gunzTarPerm extractEntry .gitattributes
+44 silly gunzTarPerm extractEntry bin/ionic
+45 silly gunzTarPerm extractEntry lib/ionic.js
+46 silly gunzTarPerm extractEntry lib/hooks/after_prepare/010_add_platform_class.js
+47 silly gunzTarPerm extractEntry lib/ionic/upload.js
+48 silly gunzTarPerm extractEntry lib/ionic/cordova.js
+49 silly gunzTarPerm extractEntry lib/ionic/help.js
+50 silly gunzTarPerm extractEntry lib/ionic/info.js
+51 silly gunzTarPerm extractEntry lib/ionic/lib.js
+52 silly gunzTarPerm extractEntry lib/ionic/config.js
+53 silly gunzTarPerm extractEntry lib/ionic/add.js
+54 silly gunzTarPerm extractEntry lib/ionic/package.js
+55 silly gunzTarPerm extractEntry lib/ionic/project.js
+56 silly gunzTarPerm extractEntry lib/ionic/store.js
+57 silly gunzTarPerm extractEntry lib/ionic/serve.js
+58 silly gunzTarPerm extractEntry lib/ionic/browser.js
+59 silly gunzTarPerm extractEntry lib/ionic/service.js
+60 silly gunzTarPerm extractEntry lib/ionic/bower.js
+61 silly gunzTarPerm extractEntry lib/ionic/setup.js
+62 silly gunzTarPerm extractEntry lib/ionic/task.js
+63 silly gunzTarPerm extractEntry lib/ionic/start.js
+64 silly gunzTarPerm extractEntry lib/ionic/app.js
+65 silly gunzTarPerm extractEntry lib/ionic/stats.js
+66 silly gunzTarPerm extractEntry lib/ionic/login.js
+67 silly gunzTarPerm extractEntry lib/ionic/multibar.js
+68 silly gunzTarPerm extractEntry lib/ionic/resources/generate.js
+69 silly gunzTarPerm extractEntry lib/ionic/resources/settings.js
+70 silly gunzTarPerm extractEntry lib/ionic/assets/preview.html
+71 silly gunzTarPerm extractEntry lib/ionic/CrosswalkNotes.md
+72 silly gunzTarPerm extractEntry npm-shrinkwrap.json
+73 silly lockFile a2011a51-ng-npm-cache-ionic-1-3-2-package tar://C:\Users\senthilm\AppData\Roaming\npm-cache\ionic\1.3.2\package
+74 silly lockFile a2011a51-ng-npm-cache-ionic-1-3-2-package tar://C:\Users\senthilm\AppData\Roaming\npm-cache\ionic\1.3.2\package
+75 silly lockFile 809d8a23-8811-0-05470604752190411-tmp-tgz tar://C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz
+76 silly lockFile 809d8a23-8811-0-05470604752190411-tmp-tgz tar://C:\Users\senthilm\AppData\Local\Temp\npm-18688-7DarW99G\1421549118811-0.05470604752190411\tmp.tgz
+77 silly lockFile 32338a51--npmjs-org-ionic-ionic-1-3-2-tgz https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz
+78 silly lockFile 32338a51--npmjs-org-ionic-ionic-1-3-2-tgz https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz
+79 silly lockFile d7b8e48a-ionic-1-3-2 ionic@1.3.2
+80 silly lockFile d7b8e48a-ionic-1-3-2 ionic@1.3.2
+81 silly resolved [ { name: 'ionic',
+81 silly resolved     version: '1.3.2',
+81 silly resolved     preferGlobal: true,
+81 silly resolved     description: 'A tool for creating and developing Ionic Framework mobile apps.',
+81 silly resolved     homepage: 'http://ionicframework.com/',
+81 silly resolved     bin: { ionic: 'bin/ionic' },
+81 silly resolved     keywords:
+81 silly resolved      [ 'ionic',
+81 silly resolved        'ionic framework',
+81 silly resolved        'ionicframework',
+81 silly resolved        'mobile',
+81 silly resolved        'app',
+81 silly resolved        'hybrid',
+81 silly resolved        'cordova',
+81 silly resolved        'phonegap' ],
+81 silly resolved     repository:
+81 silly resolved      { type: 'git',
+81 silly resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+81 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+81 silly resolved     license: 'MIT',
+81 silly resolved     dependencies:
+81 silly resolved      { archiver: '0.5.1',
+81 silly resolved        colors: '0.6.2',
+81 silly resolved        connect: '3.1.1',
+81 silly resolved        'connect-livereload': '0.4.0',
+81 silly resolved        crc: '3.2.1',
+81 silly resolved        'cross-spawn': '0.2.3',
+81 silly resolved        'event-stream': '3.0.x',
+81 silly resolved        finalhandler: '0.2.0',
+81 silly resolved        'form-data': '0.1.4',
+81 silly resolved        gulp: '3.8.8',
+81 silly resolved        ncp: '0.4.2',
+81 silly resolved        npm: '2.1.3',
+81 silly resolved        opbeat: '^1.0.7',
+81 silly resolved        open: '0.0.5',
+81 silly resolved        optimist: '0.6.0',
+81 silly resolved        progress: '1.1.7',
+81 silly resolved        prompt: '0.2.12',
+81 silly resolved        'proxy-middleware': '^0.7.0',
+81 silly resolved        q: '1.0.1',
+81 silly resolved        request: '2.51.0',
+81 silly resolved        'serve-static': '1.7.1',
+81 silly resolved        shelljs: '0.2.6',
+81 silly resolved        'tiny-lr-fork': '0.0.5',
+81 silly resolved        underscore: '~1.7.0',
+81 silly resolved        unzip: '0.1.9',
+81 silly resolved        'vinyl-fs': '0.3.7',
+81 silly resolved        xml2js: '0.4.4' },
+81 silly resolved     readme: 'Ionic-Cli\n=========\n\nThe Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps. In the future, it will also have support for our mobile development services and tools that make Ionic even more powerful.\n\nUse the `ionic --help` command for more detailed task information.\n\n## Installing\n\n```bash\n$ npm install -g ionic\n```\n\n*Note: For a global install of `-g ionic`, OSX/Linux users may need to prefix the command with `sudo`.*\n\n\n## Starting an Ionic App\n\n```bash\n$ ionic start myapp [template]\n```\n\nStarter templates can either come from a named template, a Github repo, a Codepen, or a local directory. A starter template is what becomes the `www` directory within the Cordova project.\n\n__Named template starters:__\n\n* [tabs](https://github.com/driftyco/ionic-starter-tabs) (Default)\n* [sidemenu](https://github.com/driftyco/ionic-starter-sidemenu)\n* [blank](https://github.com/driftyco/ionic-starter-blank)\n\n__Github Repo starters:__\n\n* Any Github repo url, ex: [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs)\n* Named templates are simply aliases to Ionic starter repos\n\n__Codepen URL starters:__\n\n* Any Codepen url, ex: [http://codepen.io/ionic/pen/odqCz](http://codepen.io/ionic/pen/odqCz)\n* [Ionic Codepen Demos](http://codepen.io/ionic/public-list/)\n\n__Local directory starters:__\n\n* Relative or absolute path to a local directory\n\n__Command-line flags/options:__\n\n    --appname, -a  .......  Human readable name for the app\n                            (Use quotes around the name)\n    --id, -i  ............  Package name set in the <widget id> config\n                            ex: com.mycompany.myapp\n    --no-cordova, -w  ....  Do not create an app targeted for Cordova\n\n\n## Testing in a Browser\n\nUse `ionic serve` to start a local development server for app dev and testing. This is useful for both desktop browser testing, and to test within a device browser which is connected to the same network. Additionally, this command starts LiveReload which is used to monitor changes in the file system. As soon as you save a file the browser is refreshed automatically. View [Using Sass](https://github.com/driftyco/ionic-cli/blob/master/README.md#using-sass) if you would also like to have `ionic serve` watch the project\'s Sass files.\n\n```bash\n$ ionic serve [options]\n```\n\n__Service Proxies:__\n\nThe `serve` command can add some proxies to the http server. These proxies are useful if you are developing in the browser and you need to make calls to an external API. With this feature you can proxy request to the external api through the ionic http server preventing the `No \'Access-Control-Allow-Origin\' header is present on the requested resource` error.\n\nIn the `ionic.project` file you can add a property with an array of proxies you want to add. The proxies are object with two properties:\n\n* `path`: string that will be matched against the beginning of the incoming request URL.\n* `proxyUrl`: a string with the url of where the proxied request should go.\n\n```json\n{\n  "name": "appname",\n  "email": "",\n  "app_id": "",\n  "proxies": [\n    {\n      "path": "/v1",\n      "proxyUrl": "https://api.instagram.com/v1"\n    }\n  ]\n}\n\n```\n\nUsing the above configuration, you can now make requests to your local server at `http://localhost:8100/v1` to have it proxy out requests to `https://api.instagram.com/v1`\n\nFor example:\n\n```js\nangular.module(\'starter.controllers\', [])\n.constant(\'InstagramApiUrl\', \'\')\n// .contant(\'InstagramApiUrl\',\'https://api.instagram.com\')\n//In production, make this the real URL\n\n.controller(\'FeedCtrl\', function($scope, $http, InstagramApiUrl) {\n\n  $scope.feed = null;\n\n  $http.get(InstagramApiUrl + \'/v1/media/search?client_id=1&lat=48&lng=2.294351\').then(function(data) {\n    console.log(\'data \' , data)\n    $scope.feed = data;\n  })\n\n})\n```\n\nSee also [this gist](https://gist.github.com/jbavari/d9c1c94058c4fdd4e935) for more help.\n\n__Command-line flags/options:__\n\n    [--consolelogs|-c] ......  Print app console logs to Ionic CLI\n    [--serverlogs|-s] .......  Print dev server logs to Ionic CLI\n    [--port|-p] .............  Dev server HTTP port (8100 default)\n    [--livereload-port|-i] ..  Live Reload port (35729 default)\n    [--nobrowser|-b] ........  Disable launching a browser\n    [--nolivereload|-r] .....  Do not start live reload\n    [--noproxy|-x] ..........  Do not add proxies\n\n\n## Adding a platform target\n\n```bash\n$ ionic platform ios android\n```\n\n## Building your app\n\n```bash\n$ ionic build ios\n```\n\n## Live Reload App During Development (beta)\n\nThe `run` or `emulate` command will deploy the app to the specified platform devices/emulators. You can also run __live reload__ on the specified platform device by adding the `--livereload` option. The live reload functionality is similar to `ionic serve`, but instead of developing and debugging an app using a standard browser, the compiled hybrid app itself is watching for any changes to its files and reloading the app when needed. This reduces the requirement to constantly rebuild the app for small changes. However, any changes to plugins will still require a full rebuild. For live reload to work, the dev machine and device must be on the same local network, and the device must support [web sockets](http://caniuse.com/websockets).\n\nWith live reload enabled, an app\'s console logs can also be printed to the terminal/command prompt by including the `--consolelogs` or `-c` option. Additionally, the development server\'s request logs can be printed out using `--serverlogs` or `-s` options.\n\n__Command-line flags/options for `run` and `emulate`:__\n\n    [--livereload|-l] .......  Live Reload app dev files from the device (beta)\n    [--consolelogs|-c] ......  Print app console logs to Ionic CLI (live reload req.)\n    [--serverlogs|-s] .......  Print dev server logs to Ionic CLI (live reload req.)\n    [--port|-p] .............  Dev server HTTP port (8100 default, live reload req.)\n    [--livereload-port|-i] ..  Live Reload port (35729 default, live reload req.)\n    [--debug|--release]\n\nWhile the server is running for live reload, you can use the following commands within the CLI:\n\n    restart or r to restart the client app from the root\n    goto or g and a url to have the app navigate to the given url\n    consolelogs or c to enable/disable console log output\n    serverlogs or s to enable/disable server log output\n    quit or q to shutdown the server and exit\n\n\n## Emulating your app\n\nDeploys the Ionic app on specified platform emulator. This is simply an alias for `run --emulator`.\n\n```bash\n$ ionic emulate ios [options]\n```\n\n\n## Running your app\n\nDeploys the Ionic app on specified platform devices. If a device is not found it\'ll then deploy to an emulator/simulator.\n\n```bash\n$ ionic run ios [options]\n```\n\n## Icon and Splash Screen Image Generation\n\n[Automatically generate icons and splash screens](http://ionicframework.com/blog/automating-icons-and-splash-screens/) from source images to create each size needed for each platform, in addition to copying each resized and cropped image into each platform\'s resources directory. Source images can either be a `png`, `psd` __Photoshop__ or `ai` __Illustrator__ file. Images are generated using Ionic\'s image resizing and cropping server, instead of requiring special libraries and plugins to be installed locally.\n\nSince each platform has different image requirements, it\'s best to make a source image for the largest size needed, and let the CLI do all the resizing, cropping and copying for you. Newly generated images will be placed in the `resources` directory at the root of the Cordova project. Additionally, the CLI will update and add the correct `<platform>` configs to the project\'s [config.xml](http://cordova.apache.org/docs/en/edge/config_ref_images.md.html#Icons%20and%20Splash%20Screens) file.\n\nDuring the build process, Cordova (v3.6 or later) will look through the project\'s [config.xml](http://cordova.apache.org/docs/en/edge/config_ref_images.md.html#Icons%20and%20Splash%20Screens) file and copy the newly created resource images to the platform\'s specific resource folder. For example, Android\'s resource folder can be found in `platforms/android/res`, and iOS uses `platforms/ios/APP_NAME/Resources`.\n\n\n### Icon Source Image\n\nSave an `icon.png`, `icon.psd` or `icon.ai` file within the `resources` directory at the root of the Cordova project. The icon image\'s minimum dimensions should be 192x192 px, and should have __no__ rounded corners. Note that each platform will apply it\'s own mask and effects to the icons. For example, iOS will automatically apply it\'s custom rounded corners, so the source file should not already come with rounded corners. This [Photoshop icon template](http://code.ionicframework.com/resources/icon.psd) provides the recommended size and guidelines of the artwork\'s safe zone.\n\n```bash\n$ ionic resources --icon\n```\n\n- [Photoshop Icon Template](http://code.ionicframework.com/resources/icon.psd)\n\n\n### Splash Screen Source Image\n\nSave a `splash.png`, `splash.psd` or `splash.ai` file within the `resources` directory at the root of the Cordova project. Splash screen dimensions vary for each platform, device and orientation, so a square source image is required the generate each of various sizes. The source image\'s minimum dimensions should be 2208x2208 px, and its artwork should be centered within the square, knowning that each generated image will be center cropped into landscape and portait images. The splash screen\'s artwork should roughly fit within a center square (1200x1200 px). This [Photoshop splash screen template](http://code.ionicframework.com/resources/splash.psd) provides the recommended size and guidelines of the artwork\'s safe zone. Additionally, when the `Orientation` [preference config](http://cordova.apache.org/docs/en/edge/config_ref_index.md.html#The%20config.xml%20File_global_preferences) is set to either `landscape` or `portrait` mode, then only the necessary images will be generated.\n\n```bash\n$ ionic resources --splash\n```\n\n- [Photoshop Splash Screen Template](http://code.ionicframework.com/resources/splash.psd)\n\n\n### Generating Icons and Splash Screens\n\nTo generate both icons and splash screens, follow the instructions above and run:\n\n```bash\n$ ionic resources\n```\n\n### Platform Specific Resource Images\n\nOne source image can be used to generate images for each platform by placing the file within the `resources` directory, such as `resources/icon.png`. To use different source images for individual platforms, place the source image in the respective platform\'s directory. For example, to use a different icon for Android, it should follow this path: `resources/android/icon.png`, and a different image for iOS would use this path: `resources/ios/icon.png`.\n\n## Crosswalk for Android\n\nIn v1.3.0 and later, you can now specify which browser to use in your Cordova Android projects. Currently we only support [Crosswalk](https://crosswalk-project.org/) and have plans to support more browsers later.\n\nExecute `ionic browser add crosswalk` to add the Crosswalk browser to your Android project. By default, this will install the `8.37.189.14` version of Crosswalk.\n\nIf you\'d like to specify a different version of Crosswalk, run `ionic browser list` to see which browsers are available and what versions. Then run `ionic browser add crosswalk@10.39.235.15`.\n\nAll that is left is to run the project as normal - `ionic run android`.\n\n*NOTE: To start with, we are only supporting stable versions of Crosswalk. We plan to add the beta and canary versions as we continue adding to this feature set*\n\n\n## Update Ionic lib\n\nUpdate Ionic library files, which are found in the `www/lib/ionic` directory. If bower is being used\nby the project, this command will automatically run `bower update ionic`, otherwise this command updates\nthe local static files from Ionic\'s CDN.\n\n```bash\n$ ionic lib update\n```\n*Note: Using bower? This command does not update Ionic\'s dependencies. Run `bower update` to update Ionic and all of it\'s dependencies defined in `bower.json`.*\n\n## Packaging an app (beta)\n\nUsing Ionic\'s service, you can compile and package your project into an app-store ready app without\nrequiring native SDKs on your machine.\n\n```bash\n$ ionic package debug android\n```\n\nThe third argument can be either `debug` or `release`, and the last argument can be either `android` or `ios`.\n\n\n## Cordova Commands\n\nIonic uses Cordova underneath, so you can also substitute Cordova commands to prepare/build/emulate/run, or to add additional plugins.\n\n*Note: we occasionally send anonymous usage statistics to the Ionic team to make the tool better.*\n\n## Working around proxies\n\nIf you have a proxy you need to get around, you can pass that proxy with the default `http_proxy` [node environment variable](https://www.npmjs.org/doc/misc/npm-config.html#proxy) or an environment variable `proxy`.\n\nA few ways to set up and use the environment variable:\n\n```bash\nexport http_proxy=internal.proxy.com\n# Or\nexport PROXY=internal.proxy.com\n\nionic start my_app\n\n# Additionally, pass in line\nPROXY=internal.proxy.com ionic start my_app\n```\n\n\n## Using Sass\n\nBy default, starter projects are hooked up to Ionic\'s precompiled CSS file, which is found in the project\'s `www/lib/ionic/css` directory, and is linked to the app in the head of the root `index.html` file. However, Ionic projects can also be customized using [Sass](http://sass-lang.com/), which gives developers and designers "superpowers" in terms of creating and maintaining CSS. Below are two ways to setup Sass for your Ionic project (the `ionic setup sass` command simply does the manual steps for you). Once Sass has been setup for your Ionic project, then the `ionic serve` command will also watch for Sass changes.\n\n#### Setup Sass Automatically\n\n    ionic setup sass\n\n\n#### Setup Sass Manually\n\n1. Run `npm install` from the working directory of an Ionic project. This will install [gulp.js](http://gulpjs.com/) and a few handy tasks, such as [gulp-sass](https://www.npmjs.org/package/gulp-sass) and [gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css).\n2. Remove `<link href="lib/ionic/css/ionic.css" rel="stylesheet">` from the `<head>` of the root `index.html` file.\n3. Remove `<link href="css/style.css" rel="stylesheet">` from the `<head>` of the root `index.html` file.\n4. Add `<link href="css/ionic.app.css" rel="stylesheet">` to the `<head>` of the root `index.html` file.\n5. In the `ionic.project` file, add the JavaScript property `"gulpStartupTasks": ["sass", "watch"]` (this can also be customized to whatever gulp tasks you\'d like).\n',
+81 silly resolved     readmeFilename: 'README.md',
+81 silly resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+81 silly resolved     _id: 'ionic@1.3.2',
+81 silly resolved     _shasum: 'c116923ed872ddfce12d8ceee5f0b57d31812514',
+81 silly resolved     _from: 'ionic@1.3.2',
+81 silly resolved     _resolved: 'https://registry.npmjs.org/ionic/-/ionic-1.3.2.tgz' } ]
+82 info install ionic@1.3.2 into C:\ProgramData\nodejs
+83 info installOne ionic@1.3.2
+84 info C:\ProgramData\nodejs\node_modules\ionic unbuild
+85 info preuninstall ionic@1.2.8
+86 info uninstall ionic@1.2.8
+87 verbose true,C:\ProgramData\nodejs\node_modules,C:\ProgramData\nodejs\node_modules unbuild ionic@1.2.8
+88 verbose C:\ProgramData\nodejs,[object Object] binRoot
+89 info postuninstall ionic@1.2.8
+90 info C:\ProgramData\nodejs\node_modules\ionic unbuild
+91 info preuninstall ionic@1.2.8
+92 info uninstall ionic@1.2.8
+93 verbose true,C:\ProgramData\nodejs\node_modules,C:\ProgramData\nodejs\node_modules unbuild ionic@1.2.8
+94 verbose C:\ProgramData\nodejs,[object Object] binRoot
+95 info postuninstall ionic@1.2.8
+96 error error rolling back Error: EPERM, unlink 'C:\ProgramData\nodejs\node_modules\ionic'
+96 error error rolling back  ionic@1.3.2 { [Error: EPERM, unlink 'C:\ProgramData\nodejs\node_modules\ionic']
+96 error error rolling back   errno: 50,
+96 error error rolling back   code: 'EPERM',
+96 error error rolling back   path: 'C:\\ProgramData\\nodejs\\node_modules\\ionic' }
+97 error Error: EPERM, unlink 'C:\ProgramData\nodejs\node_modules\ionic'
+97 error  { [Error: EPERM, unlink 'C:\ProgramData\nodejs\node_modules\ionic']
+97 error   errno: 50,
+97 error   code: 'EPERM',
+97 error   path: 'C:\\ProgramData\\nodejs\\node_modules\\ionic' }
+98 error Please try running this command again as root/Administrator.
+99 error System Windows_NT 6.1.7601
+100 error command "node" "C:\\ProgramData\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update" "-g" "ionic"
+101 error cwd C:\Users\senthilm\Desktop\Mywork\XGit\Ionic\conference\www
+102 error node -v v0.10.29
+103 error npm -v 1.4.9
+104 error path C:\ProgramData\nodejs\node_modules\ionic
+105 error code EPERM
+106 error errno 50
+107 error stack Error: EPERM, unlink 'C:\ProgramData\nodejs\node_modules\ionic'
+108 verbose exit [ 50, true ]
