@@ -1,0 +1,78 @@
+<ion-view view-title="Facilities">
+    <ion-content>
+        <div class="list">
+                <a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/bestlib.png">
+                    <h2><b>Library</b></h2>
+                    <p>The Library is one of the oldest libraries in Madurai and houses a rare and valuable 
+					collection of books. The general library and department libraries have a total of <br>89,190
+					books on various subjects. The library has a rare collection of ancient books both 
+					in Tamil and English languages. The periodical 
+					section has back-volumes of Journals in all disciplines. The library has bought 76 Journals. </p>
+                </a>
+                <a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/host.png">
+                    <h2><b>Hostels</b></h2>
+                    <p>Hostels are available for both boys and girls.<b> Available facilities in Boys hostel: </b>
+					Library, Audio Visual Aids, Invertors, Health Centre,Shuttle Cock Play Ground,Recreation Club, Various Student Committees for Mess, Library, Sports
+					and Water Management have been formed and are functioning well.  <br>
+ <b>Available facilities in Women’s hostel:</b><br>
+Internet facilities, Coffee Vending Machine, Audio Visual Aids and Invertors
+</p>
+                </a>
+                <a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/post.png">
+                    <h2><b>Post Office</b></h2>
+                    <p>The post office is situated adjacent to the<br> canteen. It provides the students a<br>
+					facility to write letters to their parents, <br>though writing letters has become an 
+					<br>outdated art. Students send various forms <br>of applications to different places from 
+					<br>within the campus. </p>
+                </a>
+				<a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/canteen.png">
+                    <h2><b>Canteen</b></h2>
+                    <p>The canteen provides the staff and <br>the students a means for quenching<br> their
+					thirst and feeding their hungry <br>stomachs in the midst of their busy <br>academic schedule. It remains 
+					a much-<br>sought place and always reminds one of<br> the couplet in the
+					Thirukkural, <br>“One will be provided with food<br> for stomach, when there is no food for ear”. </p>
+                </a>
+				<a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/place.png">
+                    <h2><b>Placement Cell</b></h2>
+                    <p>The placement cell was established in<br> 2003 with an intention to inculcate a<br>
+					sense of responsibility among students to<br>
+					be placed in higher positions. The cell<br> functions as a vital organ to bridge the 
+					<br>gap between companies and students <br>with a focus on employability.</p>
+                </a>
+				<a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/guide.png">
+                    <h2><b>Career Guidance Cell</b></h2>
+                    <p>The Career Guidance Cell was started<br> in 2003. The cell prepare the students 
+					<br>for campus interviews and job placement <br>and train the students for competitive <br>
+					and civil service exams. It arranges<br> training programme on soft skill <br>development 
+					and provide career counseling. </p>
+                </a>
+				<a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/coun.png">
+                    <h2><b>Women's Counseling Cell</b></h2>
+                    <p>Girls Students' Counselling Cell takes <br>care of the well being, welfare and <br>
+					personal development of the girls.<br> It works towards developing their <br>
+					personality and self-esteem. Our on-site<br> counselling system provides support to<br>
+					the girls and enables them to <br>understand and resolve their problems.
+
+</p>
+                </a>
+				<a class="item item-thumbnail-left item-text-wrap">
+                    <img src="img/aid.png">
+                    <h2><b>First Aid Cell</b></h2>
+                    <p>The college runs a First Aid Cell<br> to facilitate immediate medical assistance <br>
+					to students and staff. A first<br> aid box with all necessary medicines <br>
+					and dressing materials is maintained. The <br>cell
+					offers a separate paper on First Aid to <br>
+					Youth Red Cross Society volunteers of the<br> 
+					college under Part V course. Besides theory,<br>
+					practical training is given to <br>students by St.John’s Ambulance.</p>
+                </a>
+            </div>
+    </ion-content>
+</ion-view>
